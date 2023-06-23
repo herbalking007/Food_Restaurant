@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+
+    display: inline-block;
+    overflow: hidden;
+}
+.drop_menu{
+    display: none;
+    width: 150;
+    z-index: 1;
+}
+.box ul li:hover .drop_menu{
+    display: block;
+    position: absolute;
+    background-color: black;
+    margin-top: 5px;
+    margin-left: -15px;
+}
+.box ul li:hover .drop_menu ul{
+    display: block;
+    margin: 10px;
+}
+
+
+
+.box ul li:hover .drop_menu ul li:hover{
+    background-color: blue;
+    border-radius: 3px;
+}
+
+
+.box ul li:hover .drop_menu ul{
+    display: block;
+    margin: 10px;
+}
+
+
+
+
